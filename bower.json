@@ -1,0 +1,23 @@
+{
+  "name": "jquery-select-to-popup",
+  "description": "Make a popup from select input",
+  "main": "jquery.stp.js",
+  "authors": [
+    "Alexander Yorke <yorkbc2@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jQuery",
+    "Select",
+    "Input",
+    "Popup"
+  ],
+  "homepage": "https://yorkbc2.github.io/jstp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

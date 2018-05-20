@@ -1,0 +1,30 @@
+{
+  "name": "jquery-select-to-popup",
+  "version": "1.0.0",
+  "description": "Make a popup from select input",
+  "main": "jquery.stp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yorkbc2/jquery-select-to-popup.git"
+  },
+  "keywords": [
+    "jQuery",
+    "Select",
+    "Input",
+    "Popup"
+  ],
+  "author": "Alexander Yorke <yorkbc2@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yorkbc2/jquery-select-to-popup/issues"
+  },
+  "homepage": "https://github.com/yorkbc2/jquery-select-to-popup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

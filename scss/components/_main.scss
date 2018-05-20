@@ -1,0 +1,45 @@
+.stp-container {
+	position: fixed;
+	@include fixed-full-screen();
+	z-index: 2;
+
+	.stp-background {
+		position: absolute;
+		@include fixed-full-screen();
+		cursor: pointer;
+		z-index: 3;
+	}
+
+	.stp-block {
+		position: absolute;
+		width: $blockDefaultWidth;
+		min-height: 100px;
+		padding: $blockPaddings;
+		background-color: $blockBackground;
+		border-radius: $blockRadius;
+		@include center-translate();
+		z-index: 4;
+	}
+
+	.stp-table {
+		width: 100%;
+		@include table-border();
+
+		tbody {
+			tr {
+				td {
+					padding: 10px;
+					@include table-border();
+					&:first-child {
+						width: 80%;
+					}
+					&:nth-child(2) {
+						cursor: pointer;
+					}
+				}
+			}
+		}
+
+	}
+
+}
